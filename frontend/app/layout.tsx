@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "@solana/wallet-adapter-react-ui/styles.css";
-import { SolanaProvider } from "./providers/SolanaProvider";
+import { SolanaProvider } from "../providers/SolanaProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
